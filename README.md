@@ -21,7 +21,7 @@ We provided two python files (app.py and lda.py) in the backend folder. You need
 10. rm app,py
 11. cat > app,py
 12. pip install flask_cors
-13. python3 app,py
+13. python3 app.py
 
 ## Extension
 
