@@ -37,4 +37,7 @@ The extension should now appear on the Extensions page
 # Test
 You can now open any webpage which contains a lot of text like news articles, research papaers etc and click on the extension. After 15-20 seconds, you should see the topic wise summaries and related links.
 
+![Image 1](images/image1.jpeg)
+![Image 2](images/image2.jpeg)
+![Image 3](images/image3.jpeg)
 
