@@ -1,0 +1,27 @@
+{
+    "name": "GPT Chrome Extension",
+    "version": "1.0.0",
+    "description": "Get Summary",
+    "manifest_version": 3,
+    "author": "Balasukesh B",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "webRequest",
+        "declarativeNetRequest",
+        "declarativeNetRequestWithHostAccess",
+        "activeTab"
+    ],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+Y",
+                "mac": "MacCtrl+Shift+F"
+            }
+        }
+    },
+    "host_permissions": [
+        "http://127.0.0.1:8000/*"
+    ]
+}
