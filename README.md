@@ -1,4 +1,4 @@
-# CS510_Summary_Extension
+# Browser Extension for Topic wise summary generator
 This repository contains the code and instructions for using the extension which can provide topics, their summaries and related resources for a webpage.
 
 This code is for a browser extension which can provide topic wise summaries and related resources links for a web page
