@@ -11,6 +11,9 @@ We provided two python files (app.py and lda.py) in the backend folder. You need
 
 set up EC2 (or any other cloud server or your local machine in a virtual env)
 
+Execute the following steps:
+
+```
 sudo yum update -y
 
 sudo yum install git -y
@@ -38,6 +41,7 @@ pip3 install flask_cors bs4 nltk gensim numpy
 pip3 install --upgrade numpy
 
 python3 app.py
+```
 
 ## Extension
 
