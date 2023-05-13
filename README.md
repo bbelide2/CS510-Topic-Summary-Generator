@@ -35,6 +35,8 @@ cat > lda.py (copy the lda.py code in this repo)
 
 pip3 install flask_cors bs4 nltk gensim numpy
 
+pip3 install --upgrade numpy
+
 python3 app.py
 
 ## Extension
