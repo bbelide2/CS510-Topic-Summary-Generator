@@ -7,6 +7,13 @@ import gensim
 from gensim.corpora import Dictionary
 from gensim.models.ldamodel import LdaModel
 
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
+
 def generateTopics(url):
     # Retrieve webpage content
     response = requests.get(url)
