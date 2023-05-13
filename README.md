@@ -10,18 +10,31 @@ This code is for a browser extension which can provide topic wise summaries and 
 We provided two python files (app.py and lda.py) in the backend folder. You need to install required dependencies and then run app.py. You can run the backend on your own machine (we highly recommend to use virtual environments) or in the cloud (like AWS EC2). We tested the code on EC2 instance with Amazon Linux 2023 AMI. Similar setup should work on other linux based machines as well.
 
 set up EC2 (or any other cloud server or your local machine in a virtual env)
+
 sudo yum update -y
+
 sudo yum install git -y
+
 sudo yum install -y python3 python3-pip
+
 git clone https://github.com/openai/openai-quickstart-python.git
+
 cd openai-quickstart-python
+
 cp .env.example .env
+
 vi .env -> generate openAI secret key from https://platform.openai.com/account/api-keys and add it to .env file.
+
 pip3 install -r requirements.txt
+
 rm app.py
+
 cat > app.py (copy the app.py code in this repo)
+
 cat > lda.py (copy the lda.py code in this repo)
+
 pip3 install flask_cors bs4 nltk gensim numpy
+
 python3 app.py
 
 ## Extension
